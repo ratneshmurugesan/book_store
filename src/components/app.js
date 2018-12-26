@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import Search from './Search/search.js'
-import { Sections } from './BookShelve'
+import Search from './search/search.js'
+import { Sections } from './bookShelve/bookShelve.js'
 
 export class App extends React.Component {
   render() {
